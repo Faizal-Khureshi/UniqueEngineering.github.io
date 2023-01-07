@@ -1,0 +1,351 @@
+::-webkit-scrollbar {
+    display: none;
+}
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+#home1{
+    height: 1080px;
+    width: 100%;
+}
+.nav{
+    position: relative;
+}
+.nav ul{
+    list-style-type: none;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.nav li{
+    display: inline-block;
+    padding-right: 50px;
+}
+.nav a{
+    color: black;
+    font-family: Averta Demo PE;
+    font-weight: lighter;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a #logo{
+    position: relative;
+    top: 25px;
+    left: 580px;
+    width: 120px;
+}
+#language{
+    top: 25px;
+    right: 100px;
+    position: absolute;
+    height: 25px;
+}
+
+.first{
+    margin-left: 30px;
+}
+.first .text1{
+    padding-top: 100px;
+    padding-left: 200px;
+}
+.first .text1 li{
+    display: inline-block;
+
+}
+#segoe{
+    font-family: 'Segoe UI';
+    font-size: 150px;
+}
+#averta{
+    font-family: Averta Demo PE;
+    font-size: 150px;
+}
+#pe{
+    font-family: Averta Demo PE;
+    font-size: 90px;
+}
+.first .text2{
+    position: relative;
+    margin-top: -40px;
+    padding-left: 140px;
+}
+.first .text2 li {
+    display: inline-block;
+}
+#bebas{
+    font-family: Bebas Neue;
+    font-size: 90px;
+    font-weight: 200;
+    letter-spacing: 20px;
+}
+#neue{
+    font-family: Bebas Neue;
+    font-size: 90px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    padding-left: 20px;
+}
+.first .text3 {
+    position: relative;
+    margin-top: -30px;
+    padding-left: 565px;
+}
+.first .text3 li {
+    display: inline-block;
+}
+#aver {
+    font-family: Averta Demo PE;
+    font-size: 60px;
+}
+#d {
+    font-family: Averta Demo PE;
+    font-size: 60px;
+    padding-left: 10px;
+    text-decoration: solid underline black 4px;
+    text-underline-offset: 8px;
+}
+#e {
+    font-family: Averta Demo PE;
+    font-size: 60px;
+}
+
+#button1{
+    position: absolute;
+    margin-top: 4%;
+    left: 39%;
+    background-color: #212B36;
+    padding: 15px 25px;
+}
+#button1 a{
+    font-size: 15px;
+    font-family: Averta Demo PE;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+#button2 {
+    position: absolute;
+    margin-top: 4%;
+    left: 52%;
+    background-color: #212B36;
+    padding: 15px 25px;
+}
+#button2 a {
+    font-size: 15px;
+    font-family: Averta Demo PE;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+
+#home2 {
+    height: 700px;
+    width: 1920px;
+}
+.aboutus{
+    left: 38px;
+    position: relative;
+    height: 630px;
+    width: 1844px;
+    border: solid black 1px;
+}
+.aboutus li{
+    display: block;
+}
+.aboutus #ab{
+    position: absolute;
+    top: 65px;
+    right: 100px;
+    font-family: Averta Demo PE;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+.aboutus #us{
+    position: absolute;
+    top: 140px;
+    right: 100px;
+    font-family: Averta Demo PE;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+.aboutus .p1{
+    position: absolute;
+    left: 100px;
+    top: 65px;
+    width: 1060px;
+    height: 205px;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+}
+
+.aboutus .p2 {
+    position: absolute;
+    right: 100px;
+    top: 350px;
+    width: 1060px;
+    height: 205px;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    text-align: right;
+}
+
+
+#home3 {
+    height: 900px;
+    width: 100%;
+}
+.vision-back{
+    background-image: url(Assets/vimg.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+.vision-back-op{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 60%;
+}
+.vision-text{
+    height: 100%;
+    width: 100%;
+}
+.vision-text span{
+    position: absolute;
+    font-size: 35px;
+    color: white;
+    font-family: Averta Demo PE;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+.vision-text p{
+    position: absolute;
+    text-align: center;
+    width: 1000px;
+    font-size: 35px;
+    color: white;
+    font-family: Averta Demo PE;
+    margin-top: 250px;
+    margin-left: 500px;
+}
+
+
+#home4 {
+    height: 1000px;
+    width: 100%;
+}
+.new-arrival-nav{
+    position: absolute;
+    left: 42%;
+}
+.new-arrival-nav li{
+    padding: 10px;
+    display: inline-block;
+}
+.new-arrival-nav #left-arrow{
+    position: relative;
+    height: 30px;
+    rotate: 90deg;
+}  
+.new-arrival-nav #new-arrival-text{
+    position: relative;
+    top: -5px;
+    font-size: 30px;
+    font-family: Averta Demo PE;
+    text-transform: uppercase;
+}
+.new-arrival-nav #right-arrow {
+    position: relative;
+    height: 30px;
+    rotate: -90deg;
+}
+.new-arrival-card-holder{
+    max-width: auto;
+    position: relative;
+    display: flex;
+    top: 100px;
+    left: 70px;
+    overflow-x: scroll;
+}
+.new-arrival-card{
+    width: 300px;
+    height: 450px;
+    margin-left: 50px;
+    border: solid black 1px;
+}
+.new-arrival-card img{
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+.end-information{
+    position: relative;
+    background-color: #DCDCDC;
+    height: 200px;
+    width: 100%;
+}
+.end-information .legal{
+    position: relative;
+    height: 130px;
+    width: 200px;
+    top: 30px;
+    left: 100px;
+}
+.end-information .legal h1{
+    font-size: 30px;
+    font-family: Averta Demo PE;
+    text-transform: uppercase;
+    color: rgb(124, 124, 124);
+}
+.end-information .legal a {
+    font-size: 12px;
+    font-family: Averta Demo PE;
+    text-transform: uppercase;
+    color: black;
+}
+
+.end-information .contactus{
+    position: absolute;
+    width: 200px;
+    top: 10px;
+    right: 150px;
+    text-align: right;
+}
+.end-information .contactus h1{
+    font-size: 20px;
+    font-family: Averta Demo PE;
+    text-transform: uppercase;
+    color: rgb(124, 124, 124);
+}
+.end-information .contactus p{
+    text-align: right;
+    font-size: 12px;
+    font-family: Averta Demo PE;
+    text-transform: uppercase;
+    color: rgb(54, 54, 54);
+    right: 80px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;  
+    font-family: Averta Demo PE;
+    font-size: 15px;
+}
