@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Averta;
+    src: url(../Fonts/AvertaDemoPE-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: BebasNeue-Bold;
+    src: url(../Fonts/BebasNeue-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: BebasNeue-Book;
+    src: url(../Fonts/BebasNeue-Book.ttf) format('truetype');
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -24,20 +36,22 @@ body{
 }
 .nav li{
     display: inline-block;
+    padding-top: 2%;
     padding-right: 50px;
 }
 .nav a{
     color: black;
-    font-family: Averta Demo PE;
-    font-weight: lighter;
+    font-family: Averta;
+    font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
     text-decoration: none;
+    
 }
 a #logo{
-    position: relative;
+    position: absolute;
     top: 25px;
-    left: 580px;
+    left: 47%;
     width: 120px;
 }
 #language{
@@ -48,11 +62,12 @@ a #logo{
 }
 
 .first{
-    margin-left: 30px;
+    margin-left: 1.5%;
+    width: 100%;
 }
 .first .text1{
-    padding-top: 100px;
-    padding-left: 200px;
+    padding-top: 5%;
+    padding-left: 11%;
 }
 .first .text1 li{
     display: inline-block;
@@ -63,15 +78,14 @@ a #logo{
     font-size: 150px;
 }
 #averta{
-    font-family: Averta Demo PE;
+    font-family: Averta;
     font-size: 150px;
 }
 #pe{
-    font-family: Averta Demo PE;
+    font-family: Averta;
     font-size: 90px;
 }
 .first .text2{
-    position: relative;
     margin-top: -40px;
     padding-left: 140px;
 }
@@ -79,20 +93,18 @@ a #logo{
     display: inline-block;
 }
 #bebas{
-    font-family: Bebas Neue;
+    font-family: BebasNeue-Book;
     font-size: 90px;
-    font-weight: 200;
     letter-spacing: 20px;
 }
 #neue{
-    font-family: Bebas Neue;
+    font-family: BebasNeue-Bold;
     font-size: 90px;
-    font-weight: bold;
-    letter-spacing: 20px;
     padding-left: 20px;
+    letter-spacing: 20px;
 }
 .first .text3 {
-    position: relative;
+    
     margin-top: -30px;
     padding-left: 565px;
 }
@@ -100,18 +112,18 @@ a #logo{
     display: inline-block;
 }
 #aver {
-    font-family: Averta Demo PE;
+    font-family: Averta;
     font-size: 60px;
 }
 #d {
-    font-family: Averta Demo PE;
+    font-family: Averta;
     font-size: 60px;
     padding-left: 10px;
     text-decoration: solid underline black 4px;
     text-underline-offset: 8px;
 }
 #e {
-    font-family: Averta Demo PE;
+    font-family: Averta;
     font-size: 60px;
 }
 
@@ -123,13 +135,15 @@ a #logo{
     padding: 15px 25px;
 }
 #button1 a{
+    font-weight: bold;
     font-size: 15px;
-    font-family: Averta Demo PE;
+    font-family: Averta;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
 }
 #button2 {
+    font-weight: bold;
     position: absolute;
     margin-top: 4%;
     left: 52%;
@@ -138,7 +152,7 @@ a #logo{
 }
 #button2 a {
     font-size: 15px;
-    font-family: Averta Demo PE;
+    font-family: Averta;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
@@ -147,13 +161,13 @@ a #logo{
 
 #home2 {
     height: 700px;
-    width: 1920px;
+    width: 100%;
 }
 .aboutus{
     left: 38px;
     position: relative;
     height: 630px;
-    width: 1844px;
+    width: 96%;
     border: solid black 1px;
 }
 .aboutus li{
@@ -163,7 +177,7 @@ a #logo{
     position: absolute;
     top: 65px;
     right: 100px;
-    font-family: Averta Demo PE;
+    font-family: Averta;
     text-transform: uppercase;
     font-size: 80px;
 }
@@ -171,7 +185,7 @@ a #logo{
     position: absolute;
     top: 140px;
     right: 100px;
-    font-family: Averta Demo PE;
+    font-family: Averta;
     text-transform: uppercase;
     font-size: 80px;
 }
@@ -202,7 +216,7 @@ a #logo{
     width: 100%;
 }
 .vision-back{
-    background-image: url(Assets/vimg.jpg);
+    background-image: url('/Assets/vimg.jpg');
     background-size: cover;
     height: 800px;
     width: 100%;
@@ -221,9 +235,9 @@ a #logo{
     position: absolute;
     font-size: 35px;
     color: white;
-    font-family: Averta Demo PE;
-    margin-top: 100px;
-    margin-left: 100px;
+    font-family: Averta;
+    margin-top: 5%;
+    margin-left: 5%;
     text-transform: uppercase;
 }
 .vision-text p{
@@ -232,9 +246,9 @@ a #logo{
     width: 1000px;
     font-size: 35px;
     color: white;
-    font-family: Averta Demo PE;
-    margin-top: 250px;
-    margin-left: 500px;
+    font-family: Averta;
+    margin-top: 13%;
+    margin-left: 26%;
 }
 
 
@@ -259,7 +273,7 @@ a #logo{
     position: relative;
     top: -5px;
     font-size: 30px;
-    font-family: Averta Demo PE;
+    font-family: Averta;
     text-transform: uppercase;
 }
 .new-arrival-nav #right-arrow {
@@ -271,8 +285,8 @@ a #logo{
     max-width: auto;
     position: relative;
     display: flex;
-    top: 100px;
-    left: 70px;
+    top: 10%;
+    left: 3.5%;
     overflow-x: scroll;
 }
 .new-arrival-card{
@@ -309,13 +323,13 @@ a #logo{
 }
 .end-information .legal h1{
     font-size: 30px;
-    font-family: Averta Demo PE;
+    font-family: Averta;
     text-transform: uppercase;
     color: rgb(124, 124, 124);
 }
 .end-information .legal a {
     font-size: 12px;
-    font-family: Averta Demo PE;
+    font-family: Averta;
     text-transform: uppercase;
     color: black;
 }
@@ -329,14 +343,14 @@ a #logo{
 }
 .end-information .contactus h1{
     font-size: 20px;
-    font-family: Averta Demo PE;
+    font-family: Averta;
     text-transform: uppercase;
     color: rgb(124, 124, 124);
 }
 .end-information .contactus p{
     text-align: right;
     font-size: 12px;
-    font-family: Averta Demo PE;
+    font-family: Averta;
     text-transform: uppercase;
     color: rgb(54, 54, 54);
     right: 80px;
@@ -346,6 +360,6 @@ footer{
     background-color: black;
     color: white;
     padding: 5px;  
-    font-family: Averta Demo PE;
+    font-family: Averta;
     font-size: 15px;
 }
