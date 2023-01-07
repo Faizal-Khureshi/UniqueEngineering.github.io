@@ -104,7 +104,6 @@ a #logo{
     letter-spacing: 20px;
 }
 .first .text3 {
-    
     margin-top: -30px;
     padding-left: 565px;
 }
@@ -216,7 +215,7 @@ a #logo{
     width: 100%;
 }
 .vision-back{
-    background-image: url('/Assets/vimg.jpg');
+    background-image: url('../Assets/vimg.jpg');
     background-size: cover;
     height: 800px;
     width: 100%;
