@@ -21,119 +21,125 @@ body{
     overflow-x: hidden;
     max-width: 100%;
 }
-
-#home1{
+.flex {
+    display: flex;
+    gap: var(--gap);
+}
+#home-1{
     height: 1080px;
     width: 100%;
 }
+
 .nav{
-    position: relative;
+    padding-top: 25px;
+    margin: 0;
 }
 .nav ul{
-    list-style-type: none;
-    padding-left: 100px;
-    padding-right: 100px;
+    list-style: none;
+    align-items: center;
 }
-.nav li{
-    display: inline-block;
-    padding-top: 2%;
-    padding-right: 50px;
+.nav .left-nav{
+    padding-left: 60px;
 }
-.nav a{
-    color: black;
-    font-family: Averta;
-    font-weight: bold;
-    font-size: 15px;
-    text-transform: uppercase;
+.nav .left-nav a{
     text-decoration: none;
-    
+    color: black;
+    font-size: 18px;
+    font-family: Averta;
 }
-a #logo{
+.nav .company-logo{
     position: absolute;
-    top: 25px;
-    left: 47%;
-    width: 120px;
+    left: 50%;
+    transform: translateX(-50%);
 }
-#language{
-    top: 25px;
-    right: 100px;
+.nav .company-logo img{
+    max-height: 50px;
+}
+.nav .language-logo{
     position: absolute;
-    height: 25px;
+    right: 5%;
+}
+.nav .language-logo img{
+    max-height: 25px;
 }
 
-.first{
-    margin-left: 1.5%;
-    width: 100%;
+.home-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -40%);
+    list-style: none;
+    text-align: center;
+    width: 96%;
 }
-.first .text1{
-    padding-top: 5%;
-    padding-left: 11%;
+.home-text .home-text-1{
+    position: relative;
+    left: 12%;
+    align-items: center;
 }
-.first .text1 li{
-    display: inline-block;
-
-}
-#segoe{
+.home-text .home-text-1 .home-text-1-1{
     font-family: 'Segoe UI';
     font-size: 150px;
 }
-#averta{
+.home-text .home-text-1 .home-text-1-2{
     font-family: Averta;
     font-size: 150px;
 }
-#pe{
+.home-text .home-text-1 .home-text-1-3{
     font-family: Averta;
     font-size: 90px;
 }
-.first .text2{
-    margin-top: -40px;
-    padding-left: 140px;
+
+.home-text .home-text-2{
+    position: relative;
+    top: -35px;
+    left: 10%;
+    align-items: center;
 }
-.first .text2 li {
-    display: inline-block;
-}
-#bebas{
+.home-text .home-text-2 .home-text-2-1{
     font-family: BebasNeue-Book;
     font-size: 90px;
     letter-spacing: 20px;
 }
-#neue{
+.home-text .home-text-2 .home-text-2-2{
     font-family: BebasNeue-Bold;
     font-size: 90px;
     padding-left: 20px;
     letter-spacing: 20px;
 }
-.first .text3 {
-    margin-top: -30px;
-    padding-left: 565px;
+
+.home-text .home-text-3{
+    position: relative;    
+    top: -50px;
+    left: 30%;
+    align-items: center;
 }
-.first .text3 li {
-    display: inline-block;
-}
-#aver {
+.home-text .home-text-3 .home-text-3-1{
     font-family: Averta;
     font-size: 60px;
 }
-#d {
+.home-text .home-text-3 .home-text-3-2{
     font-family: Averta;
     font-size: 60px;
     padding-left: 10px;
     text-decoration: solid underline black 4px;
     text-underline-offset: 8px;
 }
-#e {
+.home-text .home-text-3 .home-text-3-3{
     font-family: Averta;
     font-size: 60px;
 }
-
-#button1{
-    position: absolute;
-    margin-top: 4%;
-    left: 39%;
+.home-button{
+    justify-content: center;
+}
+.home-button span{
+    margin-right: 35px;
+}
+.home-button-1{
     background-color: #212B36;
     padding: 15px 25px;
 }
-#button1 a{
+.home-button-1 a{
     font-weight: bold;
     font-size: 15px;
     font-family: Averta;
@@ -141,15 +147,12 @@ a #logo{
     text-decoration: none;
     color: white;
 }
-#button2 {
-    font-weight: bold;
-    position: absolute;
-    margin-top: 4%;
-    left: 52%;
+.home-button-2{
     background-color: #212B36;
     padding: 15px 25px;
 }
-#button2 a {
+.home-button-2 a {
+    font-weight: bold;
     font-size: 15px;
     font-family: Averta;
     text-transform: uppercase;
@@ -158,58 +161,65 @@ a #logo{
 }
 
 
-#home2 {
+#home-2 {
     height: 700px;
     width: 100%;
 }
-.aboutus{
-    left: 38px;
-    position: relative;
-    height: 630px;
+.about-section{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 590px;
     width: 96%;
     border: solid black 1px;
 }
-.aboutus li{
-    display: block;
-}
-.aboutus #ab{
+.about-section .about-header{
     position: absolute;
-    top: 65px;
-    right: 100px;
+    left: 50%;
+    transform: translate(-50%);
+
+    width: 90%;
+    list-style: none;
+    text-align: right;
+    flex-direction: column;
+    z-index: 1;
+    
+}
+.about-section .about-header .about-header-1{
+    font-family: Averta;
+    text-transform: uppercase;
+    font-size: 80px;
+    margin-top: 50px;
+}
+.about-section .about-header .about-header-2{
+    margin-top: -40px;
     font-family: Averta;
     text-transform: uppercase;
     font-size: 80px;
 }
-.aboutus #us{
+.about-section .about-para{
     position: absolute;
-    top: 140px;
-    right: 100px;
-    font-family: Averta;
-    text-transform: uppercase;
-    font-size: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 90%;
 }
-.aboutus .p1{
-    position: absolute;
-    left: 100px;
-    top: 65px;
-    width: 1060px;
-    height: 205px;
+.about-section .about-para .about-para-1{
+    float: left;
+    text-align: left;
+    width: 60%;
     font-family: 'Segoe UI';
     font-size: 25px;
 }
-
-.aboutus .p2 {
-    position: absolute;
-    right: 100px;
-    top: 350px;
-    width: 1060px;
-    height: 205px;
+.about-section .about-para .about-para-2{
+    float: right;
+    width: 60%;
     font-family: 'Segoe UI';
     font-size: 25px;
     text-align: right;
 }
 
-
+/*
 #home3 {
     height: 900px;
     width: 100%;
@@ -293,15 +303,15 @@ a #logo{
     left: 3.5%;
 }
 .new-arrival-card{
-    position: relative;
-    width: 300px;
+    position: relative; 
+    width: 350px;
     height: 450px;
     margin-left: 2.8%;
     border: solid black 1px;
 }
 .new-arrival-card img{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     max-width: 90%;
     max-height: 90%;
     position: relative;
