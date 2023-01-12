@@ -219,15 +219,17 @@ body{
     text-align: right;
 }
 
-/*
+
 #home3 {
-    height: 900px;
+    height: 700px;
     width: 100%;
 }
 .vision-back{
     background-image: url('../Assets/vimg.jpg');
     background-size: cover;
-    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
     width: 100%;
 }
 .vision-back-op{
@@ -237,9 +239,12 @@ body{
     opacity: 60%;
 }
 .vision-text{
-    height: 100%;
-    width: 100%;
-    
+    position: relative;
+    height: 90%;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: left;
 }
 .vision-text span{
@@ -248,93 +253,84 @@ body{
     color: white;
     font-family: Averta;
     margin-top: 5%;
-    margin-left: 5%;
     text-transform: uppercase;
 }
 .vision-text p{
-    position: relative;
-    height: 35%;
-    top: 30%;
+    position: absolute;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
-    font-size: 35px;
+    font-size: 30px;
     color: white;
     font-family: Averta;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
 #home4 {
-    height: 1000px;
+    padding-top: 3%;
+    height: 850px;
     width: 100%;
 }
-.new-arrival-nav{
+.box-new-arrival {
+    padding: 20px;
+    height: 400px;
+}
+.nav-new-arrival{
+    width: 100%;
     text-align: center;
-    width: 100%;
 }
-.new-arrival-nav li{
-    padding: 10px;
-    display: inline-block;
-}
-.new-arrival-nav #left-arrow{
-    position: relative;
-    height: 30px;
-    rotate: 90deg;
-}  
-.new-arrival-nav #new-arrival-text{
-    position: relative;
-    top: -5px;
-    font-size: 30px;
-    font-family: Averta;
+.new-arrival{
+    font-family: averta;
+    font-size: 25px;
     text-transform: uppercase;
 }
-.new-arrival-nav #right-arrow {
-    position: relative;
-    height: 30px;
-    rotate: -90deg;
+
+.box-best-seller {
+    padding: 20px;
+    height: 400px;
 }
-.new-arrival-card-holder{
-    max-width: 94%;
-    max-height: 100%;
-    position: relative;
-    display: flex;
-    top: 10%;
-    left: 3.5%;
-}
-.new-arrival-card{
-    position: relative; 
-    width: 350px;
-    height: 450px;
-    margin-left: 2.8%;
-    border: solid black 1px;
-}
-.new-arrival-card img{
+.nav-best-seller {
     width: 100%;
-    height: 100%;
-    max-width: 90%;
-    max-height: 90%;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.best-seller {
+    font-family: averta;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 
+.swiper{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% , -20%);
+    height: 325px;
+}
+.swiper-slide {
+    position: absolute;
+    display: flex;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 290px;
+    border: solid black 0.5px;
+}
 
 
 .end-information{
-    position: relative;
     background-color: #DCDCDC;
     height: 200px;
     width: 100%;
 }
-.end-information .legal{
+.end-information-holder{
     position: relative;
-    height: 130px;
-    width: 200px;
-    top: 30px;
-    left: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 75%;
+    width: 90%;
 }
+
 .end-information .legal h1{
     font-size: 30px;
     font-family: Averta;
@@ -350,9 +346,8 @@ body{
 
 .end-information .contactus{
     position: absolute;
+    right: 0;
     width: 200px;
-    top: 10px;
-    right: 150px;
     text-align: right;
 }
 .end-information .contactus h1{
@@ -367,8 +362,8 @@ body{
     font-family: Averta;
     text-transform: uppercase;
     color: rgb(54, 54, 54);
-    right: 80px;
 }
+
 footer{
     text-align: center;
     background-color: black;
